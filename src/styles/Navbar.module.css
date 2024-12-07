@@ -1,0 +1,31 @@
+/* Navbar container */
+.navbar {
+  padding: 1rem;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Link styles */
+.navbar a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease; /* Add transition for smooth effect */
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #ffa500; /* Orange on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+}
+
+/* Active link (currently selected page) */
+.navbar a.active {
+  color: #ff6600; /* Bright orange for active link */
+  border-bottom: 2px solid #ff6600; /* Highlight active link with border */
+}

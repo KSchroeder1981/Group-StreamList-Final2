@@ -1,0 +1,51 @@
+/* Global Background */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  margin: 0;
+  font-family: "Open Sans", sans-serif; /* Default body font */
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif; /* Headings font */
+  font-weight: bold;
+  margin: 0;
+}
+
+p,
+span,
+a,
+li {
+  font-family: "Open Sans", sans-serif; /* Body font */
+  font-size: 16px;
+  margin: 0;
+  color: #333; /* Default text color */
+}
+
+/* Buttons */
+button {
+  background-color: #007bff; /* Blue */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Highlights */
+.highlight {
+  color: #ff6600; /* Orange for highlights */
+  font-weight: bold;
+}
